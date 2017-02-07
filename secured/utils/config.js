@@ -13,7 +13,8 @@ var APP_ROOT_PATH = path.dirname(path.dirname(path.dirname(__filename))) + path.
 
 
 var config = {
-
+    "DIR_UTILS" 	: path.dirname(__filename) + path.sep,
+    "DIR_SECURED" 	: path.dirname(path.dirname(__filename)) + path.sep,
 };
 
 

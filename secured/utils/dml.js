@@ -231,4 +231,4 @@ dml.exec = function() {
 
 module.exports = dml;
 
-dml.exec();
+//dml.exec();
