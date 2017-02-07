@@ -1,6 +1,6 @@
 'use strict';
 var sqlite3 = require('sqlite3').verbose();
-var db = new sqlite3.Database('development.sqlite3');
+var db = new sqlite3.cached.Database('development.sqlite3');
 
 var dbManager = {};
 

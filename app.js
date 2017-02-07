@@ -4,3 +4,5 @@
 var utils = require('./secured/utils');
 
 console.log(utils);
+
+utils.db.close();
